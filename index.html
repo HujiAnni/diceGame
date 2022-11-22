@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penny Flip Game</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <H1>Penny Flip Game</H1>
+        <div>
+            <div>
+                <img id="coin-img" src="/assets/images/penny-heads.jpg" alt="coin image (head)">
+                <div class="controls">
+                    <button type="button" id="flip">Flip the Penny!</button>
+                    <button type="button" id="clear">Clear Scoreboard</button>
+                </div>
+                
+                <h2 id="status" class="message-container">Let's Get Rolling!</h2>
+            </div>
+            <!-- <form>
+                <input type="text" name="fName" id="first-name">
+                <input type="submit" value="Submit"></input>
+            </form> -->
+            <hr>
+            <div>
+                <h2>Scoreboard</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Number of Heads</th>
+                            <th>Percentage Heads</th>
+                            <th>Number of Tails</th>
+                            <th>Percentage Tails</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="heads">0</td>
+                            <td id="heads-percent">0%</td>
+                            <td id="tails">0</td>
+                            <td id="tails-percent">0%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
