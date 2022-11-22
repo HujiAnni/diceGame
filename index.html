@@ -11,9 +11,9 @@
         <H1>Penny Flip Game</H1>
         <div>
             <div>
-                <img id="coin-img" src="/assets/images/penny-heads.jpg" alt="coin image (head)">
+                <img id="dice-img" src="/assets/images/dice/dice1.png" alt="dice image (1)">
                 <div class="controls">
-                    <button type="button" id="flip">Flip the Penny!</button>
+                    <button type="button" id="roll">Roll the Dice!</button>
                     <button type="button" id="clear">Clear Scoreboard</button>
                 </div>
                 
@@ -29,18 +29,54 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>Number of Heads</th>
-                            <th>Percentage Heads</th>
-                            <th>Number of Tails</th>
-                            <th>Percentage Tails</th>
+                            <th>Number of 1</th>
+                            <th>Percentage 1</th>
+                            <th>Number of 2</th>
+                            <th>Percentage 2</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td id="heads">0</td>
-                            <td id="heads-percent">0%</td>
-                            <td id="tails">0</td>
-                            <td id="tails-percent">0%</td>
+                            <td id="ones">0</td>
+                            <td id="ones-percent">0%</td>
+                            <td id="twos">0</td>
+                            <td id="twos-percent">0%</td>                            
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Number of 3</th>
+                            <th>Percentage 3</th>
+                            <th>Number of 4</th>
+                            <th>Percentage 4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="threes">0</td>
+                            <td id="threes-percent">0%</td>
+                            <td id="fours">0</td>
+                            <td id="fours-percent">0%</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Number of 5</th>
+                            <th>Percentage 5</th>
+                            <th>Number of 6</th>
+                            <th>Percentage 6</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="fives">0</td>
+                            <td id="fives-percent">0%</td>
+                            <td id="sixes">0</td>
+                            <td id="sixes-percent">0%</td>
                         </tr>
                     </tbody>
                 </table>
